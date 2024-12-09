@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: adi_resume.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Here, you can explore my academic background, skills, and projects in computer science and software development. You can also download my full resume by clicking the PDF button.
 toc:
   sidebar: left
 ---
