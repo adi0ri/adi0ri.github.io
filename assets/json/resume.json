@@ -189,12 +189,12 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Neural Networks compared with Traditional Approach of Image Classifier",
+      "summary": " The project explores the application of both neural networks and traditional computer vision techniques for shape classification. Built custom dataset generator of shapes with occlusion, rotation, noise, etc. Built a custom neural network from scratch using libraries like TensorFlow and Keras. The model consists convolutional layers to extract spatial features from the images and fully connected layers for classification.",
+      "highlights": ["Convolutional Neural Networks", "Image Classification", "Performance Metric Analysis"],
+      "startDate": "2024-01-01",
+      "endDate": "2018-04-04",
+      "url": ""
     }
   ]
 }
