@@ -5,7 +5,7 @@ description: The project aims to showcase a straightforward neural network for b
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 Shape recognition is vital in computer vision, widely used in fields such as robotics and manufacturing. Due to limitations in traditional methods, there's been a shift towards using convolutional neural networks (CNNs), which excel in learning from data and performing complex image analysis tasks.
