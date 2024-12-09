@@ -93,7 +93,7 @@
       "summary": " The project explores the application of both neural networks and traditional computer vision techniques for shape classification. Built custom dataset generator of shapes with occlusion, rotation, noise, etc. Built a custom neural network from scratch using libraries like TensorFlow and Keras. The model consists convolutional layers to extract spatial features from the images and fully connected layers for classification.",
       "highlights": ["Convolutional Neural Networks", "Image Classification", "Performance Metric Analysis"],
       "startDate": "2024-01-01",
-      "endDate": "2018-04-04",
+      "endDate": "2024-04-04",
       "url": ""
     }
   ]
