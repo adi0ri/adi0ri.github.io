@@ -16,9 +16,9 @@
     },
     "profiles": [
       {
-        "network": "",
-        "username": "",
-        "url": ""
+        "network": "Aditya Ori",
+        "username": "adi0ri",
+        "url": "https://github.com/adi0ri"
       }
     ]
   },
@@ -105,7 +105,6 @@
         "TensorFlow, Keras"
       ]
     }
-    
   ],
   "languages": [
     {
