@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Neural Networks compared with Traditional Approach of Image Classifier
+title: CNN vs Traditional Image Classification
 description: The project aims to showcase a straightforward neural network for basic geometric shape classification and how it compares with traditional image processing methods, highlighting the potential of neural networks in real-world scenarios.
 img: assets/img/12.jpg
 importance: 1
@@ -10,7 +10,9 @@ related_publications: true
 
 Shape recognition is vital in computer vision, widely used in fields such as robotics and manufacturing. Due to limitations in traditional methods, there's been a shift towards using convolutional neural networks (CNNs), which excel in learning from data and performing complex image analysis tasks.
 
-The project not only highlights the advantages of CNNs in basic shape classification but also showcases their application in a more complex image recognition scenario.
+In the end, I also showcased their application of pre-trained models in more complex image recognition scenario fo fun.
+
+MAKING THE DATASET:
 
 A python script is used to automatically generate and process a dataset of images, each depicting one of three geometric shapes—circle, square, or triangle—with various visual modifications. Using OpenCV, the script creates images of specified shapes with transformations like rotation, occlusion and noise.
 
@@ -23,7 +25,7 @@ A python script is used to automatically generate and process a dataset of image
     Sample images generated (circle, square and triangle)
 </div>
 
-CNN model network architecture:
+CNN MODEL NETWORK ARCHITECTURE:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -33,7 +35,8 @@ CNN model network architecture:
 <div class="caption">
     The model uses Adam optimizer, Categorical Crossentropy loss, and measures accuracy.
 </div>
-till here
+
+EVALUATION:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -42,54 +45,40 @@ till here
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    On the left is- Training 1: 50 images, 20 epochs. On the right is- Training 2: 100 images, 50 epochs.
+</div>
+
+The traditional approach utilizes the OpenCV library in Python.
+
+The process begins with the image being loaded and converted to grayscale using the cvtColor function, and smoothed with Gaussian Blur to reduce noise. Next, edge detection is performed using the Canny edge detector to identify object boundaries by detecting significant changes in pixel intensity. Following this, contour detection retrieves and simplifies the external contours of objects to reduce shape complexity. Finally, shape classification is conducted by analyzing the contours with the approxPolyDP function to categorize shapes based on their number of vertices.
+
+ACCURACY COMPARISON:
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+OBSERVATIONS:
+
+I noticed that as I decreased the amount of transformations and noise in the generated images, the traditional approach was catching up. Also, it mattered how big of/what kind of dataset I train my neural network on. But all this makes sense since neural networks are supposed to be used on much larger and complex datasets.
+
+Therefore, the project confirms that neural networks outperform traditional image processing methods in shape recognition. CNNs' ability to adaptively learn from data enhances pattern recognition capabilities across various computational vision applications, validating their use for more complex image recognition tasks.
+
+
+PREDICTIONS OF PRE-TRAINED MODELS (trained on ImageNet):
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    On the left is- VGGNet's prediction: lakeside. On the right is- ResNet's prediction: valley.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The difference in predictions likely arises from the models' architectures and feature extraction methods.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
