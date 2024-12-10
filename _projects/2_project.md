@@ -17,6 +17,21 @@ Basically, Jekyll takes your content written in Markdown and generates static HT
 WHY GITHUB PAGES?
 
 **Free Hosting:** Host your personal website for free.
+
 **Version Control:** Leverage GitHub's version control system.
-**Custom Domains:** Option to use your own domain name.
+
 **Automated Deployment:** Changes pushed to your repository are automatically reflected on your website.
+
+
+First, start by choosing one of the plenty Jekyll themes available, [here](https://jekyllrb.com/docs/themes/).
+
+**Prerequisites:**
+
+Install [Ruby](https://www.ruby-lang.org/en/downloads/).
+
+Install Bundler and Jekyll using:
+
+>gem install bundler
+
+>gem install jekyll
+
