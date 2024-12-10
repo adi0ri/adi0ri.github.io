@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Personal Website using Jekyll
+title: Personal Website powered by Jekyll
 description: Literally this website.
 img: assets/img/12.jpg
 importance: 1
@@ -34,4 +34,7 @@ Install Bundler and Jekyll using:
 >gem install bundler
 
 >gem install jekyll
+
+
+Now the easiest way to use the theme is to fork the theme's repository and rename it as <your-github-username>.github.io
 
