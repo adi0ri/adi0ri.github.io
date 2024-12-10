@@ -59,12 +59,45 @@ First create a jekyll site by using:
 
 >jekyll new .
 
-in the github page project directory.
+in the github page project directory. By default jekyll uses the theme 'Minima'.
 
-Add the theme gem- gem "jekyll-theme-example", to the 'Gemfile' in your project directory and run:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/minima.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Minima Theme
+</div>
+
+Add the theme gem- **gem "jekyll-theme-example"**, to the 'Gemfile' in your project directory and run:
 
 >bundle install
 
-and update '_config.yml'- theme: jekyll-theme-example, to activate the theme.
+and update '_config.yml'- **theme: jekyll-theme-example**, to activate the theme.
+
+To run your site locally, run command:
+
+>bundle exec jekyll serve
+
+Access it at http://localhost:4000.
+
+Finally, in the repository page go to **Settings -> Pages -> Build and deployment**, make sure that Source is set to Deploy from a branch and set the branch to gh-pages (NOT to main).
+
+If the site doesn't automatically deploy, deploy it in the actions menu.
+
+Your website is ready to be visited now! Use url https://**your-github-username**.github.io
 
 
+**AL-FOLIO**
+
+This site is built using the al-folio jekyll theme, a clean and responsive theme that is highly customizable.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/alfolio.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    al-folio theme
+</div>
