@@ -3,7 +3,7 @@ layout: page
 title: Personal Website powered by Jekyll
 description: Literally this website.
 img: assets/img/12.jpg
-importance: 60
+importance: 1
 category: work
 related_publications: false
 ---

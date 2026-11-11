@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected work in AI evaluation, graph research, and software engineering.
+description: A growing collection of my cool projects.
 nav: true
 nav_order: 3
 display_categories: [work, fun]

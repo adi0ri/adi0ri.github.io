@@ -3,7 +3,7 @@ layout: page
 title: CNN vs Traditional Image Classification
 description: The project aims to showcase a straightforward neural network for basic geometric shape classification and how it compares with traditional image processing methods, highlighting the potential of neural networks in real-world scenarios.
 img: assets/img/12.jpg
-importance: 50
+importance: 1
 category: work
 related_publications: false
 ---
