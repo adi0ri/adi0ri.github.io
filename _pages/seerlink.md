@@ -11,10 +11,12 @@ I co-built Seerlink with my business partner at Seeryn. We wanted one place to f
 
 _Pine & Thread Tailoring is fictional. This example uses synthetic data._
 
+[![Seerlink demo record showing the contact source, priority score, and mobile viewport audit](/assets/img/seerlink-demo.jpg)](/assets/img/seerlink-demo.jpg)
+
 | Step       | What the reviewer sees                                                                                             |
 | ---------- | ------------------------------------------------------------------------------------------------------------------ |
 | Discover   | A local tailoring business and its official website, matched to one record.                                        |
-| Audit      | A mobile usability issue observed on the services page, with the page recorded as evidence.                        |
+| Audit      | The audit flags a missing mobile viewport and records the website that was checked.                                |
 | Prioritize | Separate signals for the website opportunity, the business fit, and confidence in the published contact.           |
 | Review     | The reviewer checks the evidence and approves or skips the opportunity. An unreachable site goes to manual review. |
 
