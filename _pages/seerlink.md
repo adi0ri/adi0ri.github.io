@@ -11,7 +11,9 @@ I co-built Seerlink with my business partner at Seeryn. We wanted one place to f
 
 _Pine & Thread Tailoring is fictional. This example uses synthetic data._
 
-[![Seerlink demo record showing the contact source, priority score, and mobile viewport audit](/assets/img/seerlink-demo.jpg)](/assets/img/seerlink-demo.jpg)
+<a href="/assets/img/seerlink-demo.jpg">
+  <img class="img-fluid rounded" src="/assets/img/seerlink-demo.jpg" width="1684" height="764" alt="Seerlink demo record showing the contact source, priority score, and mobile viewport audit">
+</a>
 
 | Step       | What the reviewer sees                                                                                             |
 | ---------- | ------------------------------------------------------------------------------------------------------------------ |
