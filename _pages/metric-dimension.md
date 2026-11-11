@@ -13,10 +13,10 @@ Two vertices can have identical distance signatures even when each local region 
 
 ## Paired benchmark
 
-| Method | Valid before repair | Valid after repair |
-| --- | ---: | ---: |
-| Grid | 36 of 48 | 48 of 48 |
-| Zoomed Square | 47 of 48 | 48 of 48 |
+| Method        | Valid before repair | Valid after repair |
+| ------------- | ------------------: | -----------------: |
+| Grid          |            36 of 48 |           48 of 48 |
+| Zoomed Square |            47 of 48 |           48 of 48 |
 
 These are validity results on the same 48 benchmark graphs. Validity means every vertex has a distinct distance signature. It does not establish that the resulting landmark set is minimum-sized.
 

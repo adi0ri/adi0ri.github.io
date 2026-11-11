@@ -9,14 +9,14 @@ I co-built Seerlink with my business partner at Seeryn. We wanted one place to f
 
 ## A sample review
 
-*Pine & Thread Tailoring is fictional. This example uses synthetic data.*
+_Pine & Thread Tailoring is fictional. This example uses synthetic data._
 
-| Step | What the reviewer sees |
-| --- | --- |
-| Discover | A local tailoring business and its official website, matched to one record. |
-| Audit | A mobile usability issue observed on the services page, with the page recorded as evidence. |
-| Prioritize | Separate signals for the website opportunity, the business fit, and confidence in the published contact. |
-| Review | The reviewer checks the evidence and approves or skips the opportunity. An unreachable site goes to manual review. |
+| Step       | What the reviewer sees                                                                                             |
+| ---------- | ------------------------------------------------------------------------------------------------------------------ |
+| Discover   | A local tailoring business and its official website, matched to one record.                                        |
+| Audit      | A mobile usability issue observed on the services page, with the page recorded as evidence.                        |
+| Prioritize | Separate signals for the website opportunity, the business fit, and confidence in the published contact.           |
+| Review     | The reviewer checks the evidence and approves or skips the opportunity. An unreachable site goes to manual review. |
 
 ## An engineering decision I worked on
 
